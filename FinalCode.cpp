@@ -1,14 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-  Railway Reservation Demo:
-  - Trains stored in Train.dat (binary)
-  - Tickets stored in Ticket.dat (binary)
-  - Reservation counter in ResCounter.dat (binary)
-*/
-
-struct TicketRecord {
+class TicketRecord {
+  public:
     char name[40];
     int age;
     int resno;
